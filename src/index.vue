@@ -1,18 +1,13 @@
 <template>
-	<Demo />
+	<div></div>
 </template>
 
 <script>
-import Demo from './Demo.vue'
-
 export default {
-	name: 'app',
-	components: {
-		Demo
-	}
+	name: 'UploadImageEdit'
 }
 </script>
 
-<style>
+<style scoped>
 @import url('./assets/css/main.css');
 </style>
