@@ -1,10 +1,14 @@
 <template>
-	<div></div>
+	<EditImage />
 </template>
 
 <script>
+import EditImage from '@/components/EditImage'
 export default {
-	name: 'UploadImageEdit'
+	name: 'UploadImageEdit',
+	components: {
+		EditImage
+	}
 }
 </script>
 
